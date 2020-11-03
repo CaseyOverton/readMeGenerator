@@ -59,35 +59,35 @@ const writeFileAsync = util.promisify(fs.writeFile);
     let html = `
   # ${answers.project}
    
-  # Table of Contents
+## Table of Contents
 
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contribution](#Contribution)
-* [Testing](#Tests)
-* [License](#License)
-* [Questions](#Questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Testing](#tests)
+* [License](#license)
+* [Questions](#questions)
 
-## Description: 
+## Description
 ${answers.description}
 
-## Installation:
+## Installation
  ${answers.installation}
 
-## License:
- ${answers.license}
-
-## Usage: 
+## Usage
  ${answers.toKnow}
 
-## Contribution Guidelines:
+## Contribution
   ${answers.contribution}
 
-## Test Instructions: 
+## Tests
 ${answers.tests}
 
-## Questions:
+## License
+${answers.license}
+
+## Questions
  Contact Me @ github.com/${answers.github} 
  Email: ${answers.email}
 `
