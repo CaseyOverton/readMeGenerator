@@ -53,11 +53,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
    message: "What are the contribution guidelines for your project?"
 }
 ]) .then(function (answers) {
-    // console.log(answers)
-    // const html = generateHTML(answers);
-    // console.log(generateHTML(answers))
+  
     let html = `
   # ${answers.project}
+
+
    
 ## Table of Contents
 
@@ -91,6 +91,27 @@ ${answers.license}
  Contact Me @ github.com/${answers.github} 
  Email: ${answers.email}
 `
+
+//  function generateLicenseBadge(answers) {
+// if ${answers.license} === 'MIT' { 
+//     return ( `([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)))'
+// }
+// // function generateLicenseBadge(answers) {
+// //      return `# ${answers.license}
+// //     ${renderLicenseBadge(answers.license)}
+// //  }
+
+// // }
+// // else if ${answers.license} = 'BSD 3' {
+
+// // }
+// // else if ${answers.license} = 'Apache 2.0' {
+
+// // }
+// // else if ${answers.license} = 'GNU' {
+
+// // }
+
     fs.writeFileSync('readme.md', html);
 })
  

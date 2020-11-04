@@ -1,5 +1,7 @@
 
-  # f
+  # Readme.md generator
+
+
    
 ## Table of Contents
 
@@ -12,23 +14,23 @@
 * [Questions](#questions)
 
 ## Description
-f
+This app allows you to generate a read me markdown file based on your input, which allows the user to spend more time on the project!
 
 ## Installation
- f
+ none
 
 ## Usage
- f
+ nothing
 
 ## Contribution
-  f
+  none
 
 ## Tests
-f
+none
 
 ## License
 None
 
 ## Questions
- Contact Me @ github.com/f 
- Email: f
+ Contact Me @ github.com/CaseyOverton 
+ Email: overtonc1@gmail.com
